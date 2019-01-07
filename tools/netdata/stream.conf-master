@@ -1,0 +1,8 @@
+# Configuration Master side
+# /etc/netdata/stream.conf
+[CHANGEME]
+    enabled = yes
+    default history = 3600
+    default memory mode = save
+    health enabled by default = auto
+    allow from = 176.158.214.193

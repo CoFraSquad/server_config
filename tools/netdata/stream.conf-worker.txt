@@ -1,0 +1,6 @@
+# Configuration Worker side
+# /etc/netdata/stream.conf
+[stream]
+    enabled = yes
+    destination = 54.37.148.4:19999
+    api key = CHANGEME
