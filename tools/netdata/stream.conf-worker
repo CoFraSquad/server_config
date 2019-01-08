@@ -4,3 +4,9 @@
     enabled = yes
     destination = 54.37.148.4:19999
     api key = CHANGEME
+    timeout seconds = 60
+    default port = 19999
+    buffer size bytes = 1048576
+    reconnect delay seconds = 5
+    initial clock resync iterations = 60
+    send charts matching = apps.cpu apps.cpu_system apps.cpu_user apps.mem apps.processes apps.sockets apps.threads apps.vmem cpu.* disk_inodes.* disk_space.* disk.* ipv4.errors ipv4.icmp_errors ipv4.packets ipv4.sockstat_sockets ipv4.sockstat_tcp_mem ipv4.sockstat_tcp_sockets ipv4.tcperrors ipv4.tcphandshake ipv4.tcppackets mem.* net.* system.active_processes system.cpu system.interrupts system.io system.load* system.net system.processes system.ram system.uptime users.cpu users.cpu_system users.cpu_user users.mem users.processes users.sockets users.threads users.vmem
